@@ -6,31 +6,52 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Thompson Brook Upper Elementary School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Thompson Brook School</title>
 </head>
 
 <body>
-    <nav>
-        <a class="menu" href="#school_name">School Name</a>
-        <a class="menu" href="#campus">Campus</a>
-        <a class="menu" href="#achievements">Achievements</a>
-        <a class="menu" href="#news">What's New</a>
-        <a class="menu" href="#alumni">Alumni</a>
-        <a class="menu" href="#contact">Contact Us</a>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" target="_blank">Thompson Brook</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">School</a></li>
+                <li><a href="#camous">Campus Life</a></li>
+                <li><a href="#acomplish">Acomplishments</a></li>
+                <li><a href="#news">What's New</a></li>
+                <li><a href="#curriculum">Curriculum</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
     </nav>
 
-    <div id="school_name">
-        <h1>Welcome to Thompson Brook School, Avon CT</h1>
-        <p>Thompson Brook School is located in Avon, CT, USA. It's an upper-elementary school(5th and 6th grade).</p>
-        <img src="tbs-logo.png">
-    </div>
-    
-    <div id="contact">
-        <h2>Contact</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.57743399619!2d-72.855674284535!3d41.77276767923064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7af1d4f070a99%3A0xba29623a82a0f847!2sThompson%20Brook%20School!5e0!3m2!1sen!2sus!4v1627744563077!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <p>Visit us at <a href="https://www.avon.k12.ct.us/tbs-home" target="_blank">our website</a> to learn more</p>
-    </div>
-    
+    <section id="home">
+        <div id="homediv">
+            <h1>About Us</h1>
+            <img src="tbs-logo.png" id="tbs-logo">
+            <p>Our school is an <b>upper elementary</b> school for grades 5-6. It is located in <i>Avon, Connecticut, USA</i>.</p>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div id="contactdiv">
+            <h1><a href="https://www.avon.k12.ct.us/tbs-home" target="_blank">Contact Us</a></h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11902.635034487725!2d-72.84996281157261!3d41.7710145711617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7aee5e5cab117%3A0xe2727698e54762ef!2sThompson%20Brook!5e0!3m2!1sen!2sus!4v1628782656167!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
 </body>
 
 </html>
